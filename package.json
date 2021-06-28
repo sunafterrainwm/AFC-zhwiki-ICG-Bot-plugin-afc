@@ -1,0 +1,34 @@
+{
+	"name": "@sunny00217wm/afc-icg-bot-plugin-afc",
+	"version": "1.0.0-preview",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sunny00217wm/AFC-zhwiki-ICG-Bot-plugin-afc.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sunny00217wm/AFC-zhwiki-ICG-Bot-plugin-afc/issues"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"dependencies": {
+		"cron": "^1.8.2",
+		"discord.js": "^12.5.3",
+		"jquery": "^3.6.0",
+		"jsdom": "^16.6.0",
+		"mwn": "^0.11.0",
+		"turndown": "^7.0.0"
+	},
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.27.0",
+		"@typescript-eslint/parser": "^4.27.0",
+		"eslint": "^7.28.0",
+		"eslint-config-wikimedia": "^0.20.0",
+		"winston": "^3.3.3"
+	}
+}
